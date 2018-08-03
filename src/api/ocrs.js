@@ -1,6 +1,9 @@
 import resource from 'resource-router-middleware';
 import Tesseract from 'tesseract.js';
 
+export const OcrTest = (nums) => {
+	return nums;
+}
 export default () => resource({
 	/** GET / - List all ocr Data */
 	index({ params }, res) {
