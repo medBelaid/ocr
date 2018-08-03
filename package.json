@@ -54,7 +54,18 @@
   },
   "jest": {
     "testURL": "http://localhost/",
-    "verbose": true
+    "verbose": true,
+    "transform": {
+      "^.+\\.js$": "babel-jest"
+    },
+    "moduleFileExtensions": [
+      "js",
+      "jsx"
+    ],
+    "moduleDirectories": [
+      "node_modules",
+      "bower_components"
+    ]
   },
   "homepage": "https://github.com/developit/express-es6-rest-api#readme",
   "keywords": [
